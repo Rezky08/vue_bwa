@@ -27,11 +27,11 @@
                 <div class="col-lg-3 text-right col-md-3">
                     <ul class="nav-right">
                         <li class="cart-icon">
-                            Keranjang Belanja &nbsp;
-                            <a href="#">
+                            <router-link to="shoppingcart">
+                                Keranjang Belanja &nbsp;
                                 <i class="icon_bag_alt"></i>
                                 <span>3</span>
-                            </a>
+                            </router-link>
                             <div class="cart-hover">
                                 <div class="select-items">
                                     <table>
@@ -73,7 +73,7 @@
                                 </div>
                                 <div class="select-button">
                                     <a href="#" class="primary-btn view-card">VIEW CARD</a>
-                                    <a href="#" class="primary-btn checkout-btn">CHECK OUT</a>
+                                    <router-link to="shoppingcart" class="primary-btn checkout-btn">CHECK OUT</router-link>
                                 </div>
                             </div>
                         </li>
